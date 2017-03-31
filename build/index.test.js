@@ -2,10 +2,6 @@
 
 var _ = require('.');
 
-var _2 = _interopRequireDefault(_);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
 test('says hello pack', function () {
-  expect((0, _2.default)()).toBe('hello pack');
+  expect((0, _.pack)()).toBe('hello pack');
 });

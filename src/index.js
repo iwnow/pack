@@ -1,3 +1,3 @@
 import {helloProvider} from './providers';
 
-export default () => helloProvider();
+export const pack = () => helloProvider();
