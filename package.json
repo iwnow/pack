@@ -1,0 +1,42 @@
+{
+  "name": "@iwnow/pack",
+  "version": "1.0.0",
+  "description": "The pack of some major stuff",
+  "main": "build/index.js",
+  "scripts": {
+    "dev": "watch 'npm run build' src",
+    "build": "babel src -d build",
+    "test": "cd build && jest",
+    "test:w": "npm test -- --watch"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "jest": {
+    "rootDir": "build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwnow/pack.git"
+  },
+  "keywords": [
+    "pack",
+    "iwnow",
+    "stuf",
+    "fun"
+  ],
+  "author": "Vitaliy A. Vostroknutov vostroknutov@hotmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iwnow/pack/issues"
+  },
+  "homepage": "https://github.com/iwnow/pack#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-latest": "^6.24.0",
+    "jest": "^19.0.2",
+    "watch": "^1.0.2"
+  }
+}
