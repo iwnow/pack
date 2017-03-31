@@ -1,1 +1,1 @@
-export default () => 'hello pack';
+export default () => 'hello pack :)';

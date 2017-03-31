@@ -5,5 +5,5 @@ Object.defineProperty(exports, "__esModule", {
 });
 
 exports.default = function () {
-  return 'hello pack';
+  return 'hello pack :)';
 };
